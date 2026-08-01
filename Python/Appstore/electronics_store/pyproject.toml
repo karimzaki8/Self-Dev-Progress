@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "electronics-store"
+version = "1.0.0"
+description = "Electronics Store desktop application"
+requires-python = ">=3.10"
+dependencies = [
+    "PyQt6>=6.5.0",
+]
+
+[project.scripts]
+electronics-store = "electronics_store.main:main"
+
+[tool.setuptools.packages.find]
+include = ["electronics_store*"]

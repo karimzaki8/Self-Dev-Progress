@@ -1,0 +1,31 @@
+"""Application-wide constants."""
+
+APP_NAME = "Electronics Store"
+APP_VERSION = "1.0.0"
+WINDOW_WIDTH = 1100
+WINDOW_HEIGHT = 750
+MIN_WINDOW_WIDTH = 900
+MIN_WINDOW_HEIGHT = 600
+
+DISCOUNT_STEP = 5
+DISCOUNT_RATE_PER_STEP = 0.05
+MAX_DISCOUNT_RATE = 0.25
+
+DELIVERY_CHARGE = 200.0
+PICKUP_CHARGE = 50.0
+
+CURRENCY_RATES = {
+    "USD": 1.0,
+    "EUR": 0.92,
+    "EGP": 30.90,
+}
+
+CURRENCY_SYMBOLS = {
+    "USD": "$",
+    "EUR": "€",
+    "EGP": "E£",
+}
+
+DEFAULT_CURRENCY = "USD"
+
+PREFERENCES_FILE = "user_preferences.json"
